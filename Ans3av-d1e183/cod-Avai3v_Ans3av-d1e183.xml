@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 6</title>
+        <author ref="#per-vqn2ad">Anselm of Lucca</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 6</title>
+          <date when="2020-05-12">May 12, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+            Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-Avai3v">Arch. Cap. S. Pietro. C. 118</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-05-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="Ans3av-d1e183">
+        <head xml:id="Ans3av-d1e183-Hd1e96">Liber 6</head>
+        <!-- ... -->
+        <div xml:id="Ans3av-d1e183-Dd1e101" type="gd-p2c6q1c2-et">
+        <p xml:id="Ans3av-d1e183-d1e101">
+          <quote xml:id="Ans3av-d1e183-Qd1e103">
+            <lb ed="#A"/>Omnes uero infames esse dicimus quos leges seculi infames
+            <lb ed="#A"/>appellant et omnes qui culpis exigentibus ad sacerdoti<lb ed="#A"/>um 
+            <add place="above-line">non</add> prouehi possunt. Indignum enim est ut illi eos accusent qui esse 
+            <lb ed="#A"/>non possunt quod ipsi sunt. Quoniam sicut maiores a minoribus non iudi<lb ed="#A"/>cantur 
+            ita nec criminari possunt
+          </quote>
+        </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
